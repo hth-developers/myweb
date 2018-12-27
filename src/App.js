@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
+import NavBar from './components/NavBar/NavBar';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-    {/*<NavBar />
-    <Slider />
-    <Main />
-    <Footer>*/}
+      <NavBar />
+    {/*<navbar />
+    <slider />
+    <main />
+    <footer>*/}
       </div>
     );
   }
